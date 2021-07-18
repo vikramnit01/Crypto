@@ -51,7 +51,7 @@ class Coins extends Component {
                                </thead>
                              <tbody>
                              {  
-                            coin_list.map(item=>{
+                            coin_list.map((item,i)=>{
                                 {console.log(item)}
                                return( <>
                                 <tr>

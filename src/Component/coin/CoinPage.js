@@ -47,14 +47,14 @@ export default class CoinPage extends Component {
                 </Spinner>)
         return (
             <>
-                <div class="card ml-1">
-                    <h2 class="card-header">{coin.name}</h2>
-                    <div class="card-body">
-                      <h5 class="card-title">Rank : {coin.rank}</h5>
-                      <h5 class="card-title">Price : ${parseFloat(coin.price).toFixed(2)}</h5>
-                      <h5 class="card-title">ALL Time High Price : ${parseFloat(coin.allTimeHigh).toFixed(2)}</h5>
-                      <h5 class="card-title">Supply : {coin.supply}</h5>
-                      <h5 class="card-text" >{coin.description}</h5>
+                <div className="card ml-1">
+                    <h2 className="card-header">{coin.name}</h2>
+                    <div className="card-body">
+                      <h5 className="card-title">Rank : {coin.rank}</h5>
+                      <h5 className="card-title">Price : ${parseFloat(coin.price).toFixed(2)}</h5>
+                      <h5 className="card-title">ALL Time High Price : ${parseFloat(coin.allTimeHigh).toFixed(2)}</h5>
+                      <h5 className="card-title">Supply : {coin.supply}</h5>
+                      <h5 className="card-text" >{coin.description}</h5>
                       <a href={coin.website} target="_blank" className="btn btn-dark btn-sm m-1">Official Website</a>
                       <a href="/" className="btn btn-dark btn-sm m-2">Go Back</a>
                     </div>
